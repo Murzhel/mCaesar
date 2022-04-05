@@ -17,14 +17,14 @@
             </div>
             <h3>Operation</h3>
             <div class="caesar__operation">
-                <select name="" id="">
-                    <option value="">Encrypt</option>
-                    <option value="">Decrypt</option>
+                <select name="caesar__operation-choice" id="operation-choice">
+                    <option value="1">Encrypt</option>
+                    <option value="2">Decrypt</option>
                 </select>
             </div>
             <h3>Shift</h3>
             <div class="caesar__shift">
-                <select name="" id="">
+                <select name="caesar__shift-choice" id="shift-choice">
                     <option value="1">1</option>
                     <option value="2">2</option>
                     <option value="3">3</option>
@@ -60,7 +60,7 @@
                     <option value="33">33</option>
                 </select>
             </div>
-            <button class="caesar__encrypt-decrypt">Result</button>
+            <button class="caesar__encrypt-decrypt" id="result">Result</button>
             <div class="cipher">
                 <textarea name="cipher[Text]" id="caesarform__output" placeholder="Cipher" rows="5" aria-required="true" aria-invalid="false"></textarea>
             </div>
