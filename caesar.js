@@ -8,10 +8,16 @@ const symbols = [' ',',','.',':',';','!','?','-','_','=','+','(',')','[',']','@'
 
 
 // Caesar encrypt
-
+function caesarEncrypt(text, operation, shift) {
+    var text = document.getElementById('caesarform__input');
+    var wrds = text.value;
+    console.log(wrds);
+}
 
 
 
 // Caesar decrypt
+function caesarDecrypt(text, operation, shift) {
 
+}
 
